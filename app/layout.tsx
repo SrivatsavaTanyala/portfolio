@@ -6,7 +6,7 @@ import './globals.css'
 const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Full Stack Developer',
+  title: 'Tanyala Srivatsava | Portfolio',
   description: 'Personal portfolio showcasing my skills and projects',
   icons: [],
 }
