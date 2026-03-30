@@ -267,7 +267,6 @@ export default function Portfolio() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-slate-900 rounded-2xl -z-10"></div>
             </div>
 
             <div
