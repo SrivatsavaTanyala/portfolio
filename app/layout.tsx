@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.variable} font-sans antialiased`}>
+    <html lang="en" className="overflow-x-hidden">
+      <body className={`${montserrat.variable} font-sans antialiased overflow-x-hidden w-full`}>
         {children}
         <Analytics />
       </body>
