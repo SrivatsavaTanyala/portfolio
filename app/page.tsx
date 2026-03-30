@@ -191,7 +191,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section
         id="hero"
-        className="min-h-screen flex items-center justify-center relative overflow-hidden"
+        className="min-h-screen flex items-center justify-center relative overflow-hidden scroll-mt-20"
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)",
         }}
@@ -241,7 +241,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 sm:py-24 px-4 sm:px-6">
+      <section id="about" className="py-16 sm:py-24 px-4 sm:px-6 scroll-mt-20">
         <div className="max-w-4xl mx-auto">
           <div
             id="about-heading"
@@ -292,7 +292,7 @@ export default function Portfolio() {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-16 sm:py-24 px-4 sm:px-6 bg-slate-900 text-white">
+      <section id="skills" className="py-16 sm:py-24 px-4 sm:px-6 bg-slate-900 text-white scroll-mt-20">
         <div className="max-w-6xl mx-auto">
           <div
             id="skills-heading"
@@ -335,7 +335,7 @@ export default function Portfolio() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-16 sm:py-24 px-4 sm:px-6">
+      <section id="projects" className="py-16 sm:py-24 px-4 sm:px-6 scroll-mt-20">
         <div className="max-w-4xl mx-auto">
           <div
             id="projects-heading"
@@ -399,7 +399,7 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 sm:py-24 px-4 sm:px-6 bg-slate-900 text-white">
+      <section id="contact" className="py-16 sm:py-24 px-4 sm:px-6 bg-slate-900 text-white scroll-mt-20">
         <div className="max-w-4xl mx-auto">
           <div
             id="contact-heading"
