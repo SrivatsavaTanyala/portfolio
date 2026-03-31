@@ -8,7 +8,10 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: '--font-sans' });
 export const metadata: Metadata = {
   title: 'Tanyala Srivatsava | Portfolio',
   description: 'Personal portfolio showcasing my skills and projects',
-  icons: [],
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
